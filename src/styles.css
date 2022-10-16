@@ -1,0 +1,52 @@
+*{
+    color:antiquewhite;
+    width: auto;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./dragotta.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.element{
+    height: 100vh;
+    width: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+h1, h2{
+    text-align: center;
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+}
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    font-size: small;
+    text-align: center;
+}
+.bodyDiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 60vh;
+    
+    
+}
+.quote{
+    margin-top: -20px;
+    padding: 8px;
+    text-align: center;
+}
+.originStory{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 60px;
+    padding:8px;
+    
+    
+}
