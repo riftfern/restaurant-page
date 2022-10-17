@@ -38,7 +38,7 @@ footer{
     
 }
 .quote{
-    margin-top: -20px;
+    margin-top: -30px;
     padding: 8px;
     text-align: center;
 }
@@ -47,6 +47,11 @@ footer{
     align-items: flex-end;
     margin-left: 60px;
     padding:8px;
-    
-    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top:-50px;
+    font-size: 25px;
 }
